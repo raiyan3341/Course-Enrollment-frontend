@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "title": "Full Stack Web Development",
+    "instructor": "John Doe",
+    "price": 99,
+    "rating": 4.8,
+    "duration": "12 weeks",
+    "category": "Web Development",
+    "image": "https://static.vecteezy.com/system/resources/previews/000/271/024/non_2x/vector-web-development-web-banner.jpg",
+    "description": "Learn MERN stack (MongoDB, Express, React, Node.js) and build scalable full-stack web applications."
+  },
+  {
+    "id": 2,
+    "title": "Cybersecurity Fundamentals",
+    "instructor": "Sarah Khan",
+    "price": 120,
+    "rating": 4.9,
+    "duration": "10 weeks",
+    "category": "Cybersecurity",
+    "image": "https://i.ytimg.com/vi/Gg_cwHFy9h0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDUU2dvWWlYvTgKs54HKESXy8I3pg",
+    "description": "Master the fundamentals of network security, ethical hacking, and data protection strategies."
+  },
+  {
+    "id": 3,
+    "title": "Python Programming for Beginners",
+    "instructor": "David Smith",
+    "price": 75,
+    "rating": 4.7,
+    "duration": "8 weeks",
+    "category": "Programming",
+    "image": "https://d1k0ex3y89plmw.cloudfront.net/media/public/content_material/2024_09_25_12_18_47_Python_programming_copy.webp",
+    "description": "Start your coding journey with Python. Learn syntax, loops, data structures, and basic projects."
+  },
+  {
+    "id": 4,
+    "title": "React.js Advanced Concepts",
+    "instructor": "Emily Johnson",
+    "price": 110,
+    "rating": 4.9,
+    "duration": "9 weeks",
+    "category": "Frontend",
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240516171457/Reactjs-complete-course-by-gfg-(1).webp",
+    "description": "Take your React skills to the next level. Dive into hooks, context API, performance optimization, and more."
+  },
+  {
+    "id": 5,
+    "title": "Data Science with Python",
+    "instructor": "Michael Lee",
+    "price": 130,
+    "rating": 4.8,
+    "duration": "14 weeks",
+    "category": "Data Science",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe8EykgjQNV7llCQa3YCaCzM0tH8mTmtdnYA&s",
+    "description": "Learn data analysis, visualization, and machine learning using Python, NumPy, pandas, and scikit-learn."
+  },
+  {
+    "id": 6,
+    "title": "UI/UX Design Essentials",
+    "instructor": "Olivia Brown",
+    "price": 90,
+    "rating": 4.6,
+    "duration": "7 weeks",
+    "category": "Design",
+    "image": "https://arenagurgaon.com/assets/images/blog/master-ui-ux-design.jpg",
+    "description": "Design modern, user-friendly web and mobile interfaces using Figma and Adobe XD."
+  },
+  {
+    "id": 7,
+    "title": "Digital Marketing Mastery",
+    "instructor": "Robert Green",
+    "price": 85,
+    "rating": 4.5,
+    "duration": "6 weeks",
+    "category": "Marketing",
+    "image": "https://allytech.net.in/wp-content/uploads/2024/05/digital-marketing-mastery.png",
+    "description": "Master SEO, social media marketing, and Google Ads to grow any business online."
+  },
+  {
+    "id": 8,
+    "title": "Machine Learning with TensorFlow",
+    "instructor": "Sophia Patel",
+    "price": 140,
+    "rating": 4.9,
+    "duration": "12 weeks",
+    "category": "AI & ML",
+    "image": "https://solutionsreview.com/business-intelligence/files/2022/01/MicrosoftTeams-image-13.jpg",
+    "description": "Learn deep learning, neural networks, and AI model deployment with TensorFlow and Keras."
+  },
+  {
+    "id": 9,
+    "title": "C++ Object-Oriented Programming",
+    "instructor": "James Anderson",
+    "price": 70,
+    "rating": 4.6,
+    "duration": "8 weeks",
+    "category": "Programming",
+    "image": "https://virtualacademy.pk/storage/courses/iryHmELOIbYv2rfB7pheIlBUbKZoHjRrjtEF1cyT.png",
+    "description": "Understand OOP principles and build efficient programs in C++ with real-world projects."
+  },
+  {
+    "id": 10,
+    "title": "Database Management with MySQL",
+    "instructor": "Ava Carter",
+    "price": 95,
+    "rating": 4.7,
+    "duration": "9 weeks",
+    "category": "Database",
+    "image": "https://learnovateonecenter.com/wp-content/uploads/2024/05/MYSQL-Database-Learnovate-1024x538.jpg",
+    "description": "Learn relational databases, SQL queries, normalization, and how to integrate databases in applications."
+  },
+  {
+    "id": 11,
+    "title": "Node.js & Express.js Backend",
+    "instructor": "Daniel Scott",
+    "price": 105,
+    "rating": 4.8,
+    "duration": "10 weeks",
+    "category": "Backend",
+    "image": "https://www.freecodecamp.org/news/content/images/size/w2000/2021/04/nodeexpress.png",
+    "description": "Build scalable APIs using Node.js and Express.js, integrate MongoDB, and learn authentication."
+  },
+  {
+    "id": 12,
+    "title": "Ethical Hacking & Penetration Testing",
+    "instructor": "Nora Blake",
+    "price": 135,
+    "rating": 4.9,
+    "duration": "11 weeks",
+    "category": "Cybersecurity",
+    "image": "https://uploads.teachablecdn.com/attachments/yOHMFrDPTIqH3J0A0wKj__peh.jpeg",
+    "description": "Learn ethical hacking techniques, vulnerability assessment, and penetration testing methodologies."
+  },
+  {
+    "id": 13,
+    "title": "Cloud Computing with AWS",
+    "instructor": "Henry Wilson",
+    "price": 145,
+    "rating": 4.8,
+    "duration": "10 weeks",
+    "category": "Cloud",
+    "image": "https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/a4650706a412.png",
+    "description": "Master AWS fundamentals, EC2, S3, and deploy scalable cloud applications."
+  },
+  {
+    "id": 14,
+    "title": "Artificial Intelligence for Everyone",
+    "instructor": "Emma Davis",
+    "price": 100,
+    "rating": 4.6,
+    "duration": "9 weeks",
+    "category": "AI",
+    "image": "https://365bootcamp.com/_next/image?url=https%3A%2F%2Fanalytixcamp.com%2Fwp-content%2Fuploads%2F2025%2F09%2FAi-For-Everyone-Thumbnail.jpg&w=640&q=75",
+    "description": "Understand AI basics, use cases, and ethical implications for beginners and professionals."
+  },
+  {
+    "id": 15,
+    "title": "Java Programming Bootcamp",
+    "instructor": "Lucas Martin",
+    "price": 80,
+    "rating": 4.7,
+    "duration": "8 weeks",
+    "category": "Programming",
+    "image": "https://www.vinsys.com/_next/image?url=https%3A%2F%2Fvinsys.com%2Fstatic%2Fmedia%2Fuploads%2F2022%2F01%2FJava-Programming-Training-For-Beginners.jpg&w=1200&q=75",
+    "description": "Learn Java programming from scratch with OOP, collections, and real-world projects."
+  },
+  {
+    "id": 16,
+    "title": "Mobile App Development with Flutter",
+    "instructor": "Sophia Williams",
+    "price": 120,
+    "rating": 4.8,
+    "duration": "10 weeks",
+    "category": "Mobile Development",
+    "image": "https://www.excelptp.com/wp-content/uploads/2023/03/Flutter-Development-Course.jpg",
+    "description": "Create beautiful cross-platform mobile apps using Flutter and Dart."
+  },
+  {
+    "id": 17,
+    "title": "DevOps Fundamentals",
+    "instructor": "Oliver Brown",
+    "price": 125,
+    "rating": 4.7,
+    "duration": "9 weeks",
+    "category": "DevOps",
+    "image": "https://api.hadielearning.com/courseImages/1723119080983-IMG-20240808-WA0065.jpg",
+    "description": "Learn CI/CD pipelines, Docker, Kubernetes, and automation tools for efficient software delivery."
+  },
+  {
+    "id": 18,
+    "title": "Blockchain Essentials",
+    "instructor": "Grace Miller",
+    "price": 130,
+    "rating": 4.8,
+    "duration": "10 weeks",
+    "category": "Blockchain",
+    "image": "https://101blockchains.com/wp-content/uploads/2023/09/Blockchain-Fundamentals-Free-Course.png",
+    "description": "Understand blockchain technology, smart contracts, and decentralized applications."
+  },
+  {
+    "id": 19,
+    "title": "English Communication Skills",
+    "instructor": "Chloe Taylor",
+    "price": 60,
+    "rating": 4.5,
+    "duration": "6 weeks",
+    "category": "Soft Skills",
+    "image": "https://resources.reed.co.uk/courses/coursemedia/413796/5ea35bf7-9515-4e6b-b678-927630a8ee7f_cover.webp",
+    "description": "Improve your spoken and written English with interactive sessions and practical exercises."
+  },
+  {
+    "id": 20,
+    "title": "Project Management Professional (PMP)",
+    "instructor": "William Garcia",
+    "price": 150,
+    "rating": 4.9,
+    "duration": "12 weeks",
+    "category": "Management",
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20221221134031/Top-10-Project-Management-Certifications-2023.png",
+    "description": "Prepare for PMP certification and learn project planning, execution, and agile methodologies."
+  },
+   {
+    "id": 21,
+    "title": "Artificial Intelligence for Everyone",
+    "instructor": "Emma Davis",
+    "price": 100,
+    "rating": 4.6,
+    "duration": "9 weeks",
+    "category": "AI",
+    "image": "https://365bootcamp.com/_next/image?url=https%3A%2F%2Fanalytixcamp.com%2Fwp-content%2Fuploads%2F2025%2F09%2FAi-For-Everyone-Thumbnail.jpg&w=640&q=75",
+    "description": "Understand AI basics, use cases, and ethical implications for beginners and professionals."
+  }
+]
