@@ -1,0 +1,360 @@
+[
+  {
+    "_id": "690d7fbc273b16a677936eff",
+    "title": "React.js Advanced Concepts",
+    "category": "Frontend",
+    "instructor": "Emily Johnson",
+    "description": "Take your React skills to the next level. Dive into hooks, context API, and performance optimization.",
+    "price": 110,
+    "duration": "9 weeks",
+    "thumbnail": "https://media.geeksforgeeks.org/wp-content/uploads/20240516171457/Reac.jpg",
+    "videos": [
+      { "title": "Introduction to Advanced React", "url": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4" },
+      { "title": "React Context API Deep Dive", "url": "https://samplelib.com/lib/preview/mp4/sample-10s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: Hooks Deep Dive", "topics": ["useReducer", "useMemo", "useCallback"] },
+      { "name": "Module 2: State Management", "topics": ["Context API", "Redux Toolkit", "Performance Optimization"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f00",
+    "title": "Node.js API Development",
+    "category": "Backend",
+    "instructor": "David Miller",
+    "description": "Build robust RESTful APIs using Node.js, Express.js, and MongoDB.",
+    "price": 120,
+    "duration": "10 weeks",
+    "thumbnail": "https://miro.medium.com/v2/resize:fit:1400/1*wnl0eW5FliKJrqQkZLTN8A.jpeg",
+    "videos": [
+      { "title": "Setting up Express Server", "url": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: API Fundamentals", "topics": ["HTTP", "Express", "Routing"] },
+      { "name": "Module 2: Database Integration", "topics": ["MongoDB", "Mongoose", "CRUD Operations"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f01",
+    "title": "Cybersecurity Fundamentals",
+    "category": "Cybersecurity",
+    "instructor": "Alice Carter",
+    "description": "Learn the fundamentals of securing systems, networks, and data.",
+    "price": 100,
+    "duration": "8 weeks",
+    "thumbnail": "https://img-c.udemycdn.com/course/750x422/1565838_e54e_11.jpg",
+    "videos": [
+      { "title": "Intro to Cybersecurity", "url": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: Basics of Security", "topics": ["CIA Triad", "Authentication", "Access Control"] },
+      { "name": "Module 2: Network Protection", "topics": ["Firewalls", "IDS/IPS", "Encryption"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f02",
+    "title": "Digital Marketing Mastery",
+    "category": "Marketing",
+    "instructor": "Robert Green",
+    "description": "Master SEO, social media marketing, and Google Ads to grow any business.",
+    "price": 85,
+    "duration": "6 weeks",
+    "thumbnail": "https://allytech.net.in/wp-content/uploads/2024/05/digital-marketing-m.jpg",
+    "videos": [
+      { "title": "Intro to Digital Marketing", "url": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: SEO", "topics": ["Keyword Research", "On-page Optimization", "Analytics"] },
+      { "name": "Module 2: Social Media Ads", "topics": ["Facebook Ads", "Google Ads", "Content Strategy"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f03",
+    "title": "Machine Learning with TensorFlow",
+    "category": "AI & ML",
+    "instructor": "Sophia Patel",
+    "description": "Learn deep learning, neural networks, and AI model deployment with TensorFlow.",
+    "price": 140,
+    "duration": "12 weeks",
+    "thumbnail": "https://solutionsreview.com/business-intelligence/files/2022/01/Micros.jpg",
+    "videos": [
+      { "title": "Intro to TensorFlow", "url": "https://samplelib.com/lib/preview/mp4/sample-10s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: Neural Networks", "topics": ["Dense Layers", "Activation Functions", "Loss Functions"] },
+      { "name": "Module 2: Model Training", "topics": ["Data Preprocessing", "Model Fitting", "Evaluation"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f04",
+    "title": "Python for Data Science",
+    "category": "Data Science",
+    "instructor": "Liam Anderson",
+    "description": "Master Python, Pandas, NumPy, and visualization tools for data analytics.",
+    "price": 105,
+    "duration": "9 weeks",
+    "thumbnail": "https://d2jx2rerrg6sh3.cloudfront.net/images/news/ImageForNews_766775_16896856132005567.jpg",
+    "videos": [
+      { "title": "Data Analysis with Pandas", "url": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: Python Basics", "topics": ["Syntax", "Loops", "Functions"] },
+      { "name": "Module 2: Data Visualization", "topics": ["Matplotlib", "Seaborn", "Plotly"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f05",
+    "title": "Database Design & SQL",
+    "category": "Database",
+    "instructor": "James Brown",
+    "description": "Learn relational database design, normalization, and SQL querying.",
+    "price": 90,
+    "duration": "7 weeks",
+    "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--2HfkmXad--/c_limit,f_auto,fl_progressive,q_auto,w_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bd9jckyg02qh4c4hvktm.png",
+    "videos": [
+      { "title": "Intro to SQL", "url": "https://samplelib.com/lib/preview/mp4/sample-10s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: Relational Concepts", "topics": ["ER Diagrams", "Keys", "Normalization"] },
+      { "name": "Module 2: Advanced SQL", "topics": ["JOINs", "Subqueries", "Views"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f06",
+    "title": "Full Stack Web Development",
+    "category": "Development",
+    "instructor": "Olivia White",
+    "description": "Learn HTML, CSS, JavaScript, React, Node, and MongoDB for full stack development.",
+    "price": 150,
+    "duration": "14 weeks",
+    "thumbnail": "https://miro.medium.com/v2/resize:fit:1400/1*xKEhN7tZGsK1S5eItT2FOw.jpeg",
+    "videos": [
+      { "title": "Intro to Full Stack", "url": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: Frontend Basics", "topics": ["HTML", "CSS", "JavaScript"] },
+      { "name": "Module 2: Backend", "topics": ["Node.js", "Express", "MongoDB"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f07",
+    "title": "Ethical Hacking & Penetration Testing",
+    "category": "Cybersecurity",
+    "instructor": "Nora Blake",
+    "description": "Learn ethical hacking techniques, vulnerability assessment, and penetration testing tools.",
+    "price": 135,
+    "duration": "11 weeks",
+    "thumbnail": "https://uploads.teachablecdn.com/attachments/yOHMFrDPTIqH3J0A0wKj.jpg",
+    "videos": [
+      { "title": "Intro to Ethical Hacking", "url": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: Reconnaissance", "topics": ["Footprinting", "Scanning", "Enumeration"] },
+      { "name": "Module 2: Exploitation", "topics": ["Metasploit", "SQL Injection", "Privilege Escalation"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f08",
+    "title": "Cloud Computing with AWS",
+    "category": "Cloud",
+    "instructor": "Henry Wilson",
+    "description": "Master AWS fundamentals, EC2, S3, and deploy scalable cloud applications.",
+    "price": 145,
+    "duration": "10 weeks",
+    "thumbnail": "https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/a4650706a41.jpg",
+    "videos": [
+      { "title": "Getting Started with AWS", "url": "https://samplelib.com/lib/preview/mp4/sample-10s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: AWS Basics", "topics": ["IAM", "S3", "EC2"] },
+      { "name": "Module 2: Deployment", "topics": ["Elastic Beanstalk", "Load Balancer", "CloudFront"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f09",
+    "title": "UI/UX Design Essentials",
+    "category": "Design",
+    "instructor": "Emma Davis",
+    "description": "Design beautiful, user-friendly interfaces using Figma and Adobe XD.",
+    "price": 95,
+    "duration": "8 weeks",
+    "thumbnail": "https://cdn.dribbble.com/users/3473010/screenshots/6230585/uiux.gif",
+    "videos": [
+      { "title": "Introduction to UI/UX", "url": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: UI Design", "topics": ["Layout", "Typography", "Color Theory"] },
+      { "name": "Module 2: UX Research", "topics": ["Wireframing", "Prototyping", "User Testing"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f0a",
+    "title": "Java Programming Bootcamp",
+    "category": "Programming",
+    "instructor": "Lucas Martin",
+    "description": "Learn Java programming from scratch with OOP, collections, and real-world projects.",
+    "price": 80,
+    "duration": "8 weeks",
+    "thumbnail": "https://www.vinsys.com/_next/image?url=https%3A%2F%2Fvinsys.com%2Fstat.jpg",
+    "videos": [
+      { "title": "Java Basics", "url": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: Core Java", "topics": ["Syntax", "OOP", "Loops"] },
+      { "name": "Module 2: Collections", "topics": ["ArrayList", "HashMap", "Streams"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f0b",
+    "title": "Blockchain Fundamentals",
+    "category": "Technology",
+    "instructor": "Aiden Scott",
+    "description": "Understand how blockchain works, smart contracts, and decentralized applications.",
+    "price": 130,
+    "duration": "10 weeks",
+    "thumbnail": "https://www.ibm.com/blogs/blockchain/wp-content/uploads/sites/51/2020/02/blockchain-1-1.jpg",
+    "videos": [
+      { "title": "What is Blockchain?", "url": "https://samplelib.com/lib/preview/mp4/sample-10s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: Blockchain Basics", "topics": ["Blocks", "Hashing", "Consensus"] },
+      { "name": "Module 2: Smart Contracts", "topics": ["Solidity", "Ethereum", "DApps"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f0c",
+    "title": "Artificial Intelligence Basics",
+    "category": "AI & ML",
+    "instructor": "Charlotte Evans",
+    "description": "A beginner-friendly introduction to Artificial Intelligence and its applications.",
+    "price": 95,
+    "duration": "7 weeks",
+    "thumbnail": "https://miro.medium.com/v2/resize:fit:1200/1*-FbhZ-vdF1HDoA8Q5H5Kwg.jpeg",
+    "videos": [
+      { "title": "AI Introduction", "url": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: AI Concepts", "topics": ["Search", "Agents", "ML Basics"] },
+      { "name": "Module 2: Applications", "topics": ["Chatbots", "Vision", "NLP"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f0d",
+    "title": "Linux System Administration",
+    "category": "IT",
+    "instructor": "Mason Parker",
+    "description": "Learn Linux commands, shell scripting, and server configuration.",
+    "price": 100,
+    "duration": "8 weeks",
+    "thumbnail": "https://www.redhat.com/rhdc/managed-files/styles/wysiwyg_full_width/s3/2022-04/linux-system-admin-hero-1600x900.jpg",
+    "videos": [
+      { "title": "Intro to Linux", "url": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: Command Line", "topics": ["Shell", "Permissions", "Processes"] },
+      { "name": "Module 2: Server Config", "topics": ["SSH", "Nginx", "Automation"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f0e",
+    "title": "DevOps Engineering",
+    "category": "DevOps",
+    "instructor": "Ethan Turner",
+    "description": "Master CI/CD pipelines, Docker, and Kubernetes deployment automation.",
+    "price": 145,
+    "duration": "12 weeks",
+    "thumbnail": "https://d33wubrfki0l68.cloudfront.net/1c0213b44c9d1e6e9b406b06d38dd2b81ecf3738/f1a1c/assets/img/blog/devops.jpg",
+    "videos": [
+      { "title": "What is DevOps?", "url": "https://samplelib.com/lib/preview/mp4/sample-10s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: CI/CD Basics", "topics": ["Jenkins", "GitHub Actions", "Pipelines"] },
+      { "name": "Module 2: Containers", "topics": ["Docker", "Kubernetes", "Monitoring"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f0f",
+    "title": "C++ Programming Masterclass",
+    "category": "Programming",
+    "instructor": "Noah Clark",
+    "description": "Learn advanced C++ concepts, OOP, STL, and real-world application building.",
+    "price": 120,
+    "duration": "10 weeks",
+    "thumbnail": "https://www.learncpp.com/images/learncpp-social-media-image-2.jpg",
+    "videos": [
+      { "title": "C++ Basics Overview", "url": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: OOP", "topics": ["Classes", "Inheritance", "Polymorphism"] },
+      { "name": "Module 2: STL", "topics": ["Vectors", "Maps", "Algorithms"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f10",
+    "title": "Data Visualization with Power BI",
+    "category": "Data Analytics",
+    "instructor": "Lily Moore",
+    "description": "Learn to create dashboards and reports using Power BI and DAX functions.",
+    "price": 110,
+    "duration": "8 weeks",
+    "thumbnail": "https://cdn.educba.com/academy/wp-content/uploads/2021/07/Power-BI-Tutorial.jpg",
+    "videos": [
+      { "title": "Intro to Power BI", "url": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: BI Basics", "topics": ["Data Models", "DAX", "Charts"] },
+      { "name": "Module 2: Dashboards", "topics": ["Reports", "Filters", "KPIs"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f11",
+    "title": "Networking Essentials",
+    "category": "IT",
+    "instructor": "Jacob Lee",
+    "description": "Understand how networks function, TCP/IP, and troubleshooting fundamentals.",
+    "price": 95,
+    "duration": "7 weeks",
+    "thumbnail": "https://img-c.udemycdn.com/course/750x422/1646266_93f3_4.jpg",
+    "videos": [
+      { "title": "Networking Basics", "url": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: OSI Model", "topics": ["Layers", "Protocols", "IP Addressing"] },
+      { "name": "Module 2: Troubleshooting", "topics": ["Ping", "Traceroute", "DNS Issues"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f12",
+    "title": "Software Testing & QA",
+    "category": "Testing",
+    "instructor": "Grace Allen",
+    "description": "Learn manual and automated testing techniques for high-quality software.",
+    "price": 100,
+    "duration": "8 weeks",
+    "thumbnail": "https://www.testim.io/wp-content/uploads/2022/05/software-testing.jpg",
+    "videos": [
+      { "title": "Intro to QA", "url": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: Manual Testing", "topics": ["SDLC", "Test Cases", "Bug Tracking"] },
+      { "name": "Module 2: Automation", "topics": ["Selenium", "JUnit", "CI Integration"] }
+    ]
+  },
+  {
+    "_id": "690d7fbc273b16a677936f13",
+    "title": "Mobile App Development with Flutter",
+    "category": "Mobile",
+    "instructor": "Isabella Young",
+    "description": "Build cross-platform mobile apps using Flutter and Dart.",
+    "price": 130,
+    "duration": "10 weeks",
+    "thumbnail": "https://miro.medium.com/v2/resize:fit:1200/1*lqUlZ9IMHZpAQacn2lYohA.png",
+    "videos": [
+      { "title": "Getting Started with Flutter", "url": "https://samplelib.com/lib/preview/mp4/sample-10s.mp4" }
+    ],
+    "modules": [
+      { "name": "Module 1: UI Building", "topics": ["Widgets", "Layouts", "Navigation"] },
+      { "name": "Module 2: Backend Integration", "topics": ["Firebase", "REST API", "State Management"] }
+    ]
+  }
+]

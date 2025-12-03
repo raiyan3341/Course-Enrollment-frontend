@@ -1,6 +1,7 @@
 import React from "react";
+import { motion } from "framer-motion";
+
 const successData = [
-  
   { id: 1, title: "Over 10,000 Students Enrolled", description: "Our platform has helped thousands of students upskill and grow their careers across multiple domains.", icon: "🧑‍🎓", color: "indigo", stat: "10K+", badge: "Global Reach" },
   { id: 2, title: "95% Student Satisfaction", description: "Most of our students report excellent learning experience, practical skills, and career growth after completing our courses.", icon: "✅", color: "green", stat: "95%", badge: "Excellent Rating" },
   { id: 3, title: "Industry-Recognized Courses", description: "Our courses are designed by professionals and recognized by top companies in the tech and business industry.", icon: "🏆", color: "yellow", stat: "Top Rated", badge: "Accredited" },
@@ -17,7 +18,6 @@ const successData = [
   { id: 14, title: "Interactive Learning Experience", description: "Engage with interactive quizzes, coding exercises, and discussion forums for a better learning experience.", icon: "💡", color: "sky", stat: "Interactive", badge: "Better Engagement" },
   { id: 15, title: "Trusted by Professionals", description: "Thousands of professionals worldwide rely on our courses to advance their careers and enhance their skills.", icon: "🌟", color: "amber", stat: "Trusted", badge: "Pro Endorsed" },
 ];
-
 
 const getDynamicClasses = (color) => {
     const colorMap = {
@@ -43,51 +43,38 @@ const getDynamicClasses = (color) => {
 
 const SuccessCard = ({ item }) => {
     const classes = getDynamicClasses(item.color);
-
     return (
-        <div 
-            key={item.id} 
-            className={`
-                bg-gray-800 p-6 rounded-xl border-t-4 ${classes.border} 
-                ${classes.shadow} // ✅ Shadow কালার ফিক্সড
-                transform transition duration-500 hover:scale-110 ${classes.hover}
-                flex flex-col h-full
-            `}
+        <motion.div
+            variants={{
+                hidden: { opacity: 0, y: 60, scale: 0.9 },
+                show: { opacity: 1, y: 0, scale: 1, transition: { duration: 1.2, ease: "easeOut" } }
+            }}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.3 }}
         >
-            <div className="flex justify-between items-start mb-4">
-                <div className={`text-4xl p-3 inline-block rounded-xl ${classes.iconBg}`}>
-                    {item.icon}
+            <div 
+                key={item.id} 
+                className={`bg-gray-800 p-6 rounded-xl border-t-4 ${classes.border} ${classes.shadow} transform transition duration-500 hover:scale-110 ${classes.hover} flex flex-col h-full`}
+            >
+                <div className="flex justify-between items-start mb-4">
+                    <div className={`text-4xl p-3 inline-block rounded-xl ${classes.iconBg}`}>{item.icon}</div>
+                    <div className="text-right">
+                        <p className={`text-4xl font-extrabold ${classes.stat} leading-none`}>{item.stat}</p>
+                        <span className={`inline-block text-xs font-semibold px-2 py-0.5 rounded-full mt-1 ${classes.badge}`}>{item.badge}</span>
+                    </div>
                 </div>
-                
-                <div className="text-right">
-                    <p className={`text-4xl font-extrabold ${classes.stat} leading-none`}>
-                        {item.stat}
-                    </p>
-                    <span className={`inline-block text-xs font-semibold px-2 py-0.5 rounded-full mt-1 ${classes.badge}`}>
-                        {item.badge}
-                    </span>
+                <div className="flex-grow">
+                    <h3 className={`text-xl font-bold mb-3 ${classes.title}`}>{item.title}</h3>
+                    <p className="text-gray-400 leading-relaxed text-sm">{item.description}</p>
+                </div>
+                <div className="mt-4 pt-3 border-t border-gray-700">
+                    <a href="#" className={`text-sm font-semibold ${classes.stat} hover:text-white transition duration-200`}>Learn More →</a>
                 </div>
             </div>
-
-            <div className="flex-grow">
-                <h3 className={`text-xl font-bold mb-3 ${classes.title}`}>
-                    {item.title}
-                </h3>
-                
-                <p className="text-gray-400 leading-relaxed text-sm">
-                    {item.description}
-                </p>
-            </div>
-            
-            <div className="mt-4 pt-3 border-t border-gray-700">
-                <a href="#" className={`text-sm font-semibold ${classes.stat} hover:text-white transition duration-200`}>
-                    Learn More →
-                </a>
-            </div>
-        </div>
+        </motion.div>
     );
 };
-
 
 const Success = () => {
     const focusStats = [
@@ -99,12 +86,8 @@ const Success = () => {
     return (
         <div className="bg-gray-900 min-h-screen py-20">
             <div className="container mx-auto px-4">
-                
-                {/* --- Main Header/Banner --- */}
                 <header className="text-center mb-16 max-w-4xl mx-auto">
-                    <p className="text-xl font-medium text-purple-400 uppercase tracking-widest mb-2">
-                        Why Choose Us?
-                    </p>
+                    <p className="text-xl font-medium text-purple-400 uppercase tracking-widest mb-2">Why Choose Us?</p>
                     <h1 className="text-6xl font-extrabold text-white mb-4 leading-snug">
                         Proven <span className="text-indigo-500">Success</span>, Exceptional <span className="text-yellow-500">Value</span>
                     </h1>
@@ -113,31 +96,46 @@ const Success = () => {
                     </p>
                 </header>
 
-                {/* --- Focus Statistics Section --- */}
-                <div className="max-w-5xl mx-auto mb-20 bg-gray-800 p-10 rounded-2xl shadow-2xl shadow-indigo-900/60 border-t-4 border-indigo-600">
+                <motion.div
+                    className="max-w-5xl mx-auto mb-20 bg-gray-800 p-10 rounded-2xl shadow-2xl shadow-indigo-900/60 border-t-4 border-indigo-600"
+                    initial={{ opacity: 0, y: 60 }}
+                    whileInView={{ opacity: 1, y: 0, transition: { duration: 1.2, ease: "easeOut" } }}
+                    viewport={{ once: false, amount: 0.3 }}
+                >
                     <div className="flex flex-col md:flex-row justify-around items-center space-y-8 md:space-y-0">
                         {focusStats.map((stat, index) => (
-                            <div key={index} className="text-center">
-                                <p className={`text-6xl font-extrabold ${stat.color} drop-shadow-xl`}>
-                                    {stat.value}
-                                </p>
+                            <motion.div
+                                key={index}
+                                initial={{ opacity: 0, y: 40 }}
+                                whileInView={{ opacity: 1, y: 0, transition: { duration: 1, delay: index * 0.2 } }}
+                                viewport={{ once: false, amount: 0.3 }}
+                                className="text-center"
+                            >
+                                <p className={`text-6xl font-extrabold ${stat.color} drop-shadow-xl`}>{stat.value}</p>
                                 <p className="text-lg text-gray-300 font-semibold mt-2">{stat.label}</p>
-                            </div>
+                            </motion.div>
                         ))}
                     </div>
-                </div>
+                </motion.div>
 
-                {/* --- Dynamic Success Features Grid --- */}
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8"> 
-                    {successData.map((item) => (
-                        <SuccessCard key={item.id} item={item} />
-                    ))}
-                </div>
+                <motion.div
+                    className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8"
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: false, amount: 0.2 }}
+                    variants={{ show: { transition: { staggerChildren: 0.2 } } }}
+                >
+                    {successData.map((item) => <SuccessCard key={item.id} item={item} />)}
+                </motion.div>
 
-                {/* --- Additional Information Below Cards --- */}
-                <div className="mt-20 pt-16 border-t border-gray-700">
+                <motion.div
+                    className="mt-20 pt-16 border-t border-gray-700"
+                    initial={{ opacity: 0, y: 60 }}
+                    whileInView={{ opacity: 1, y: 0, transition: { duration: 1.2, ease: "easeOut" } }}
+                    viewport={{ once: false, amount: 0.3 }}
+                >
                     <div className="text-center mb-12">
-                         <h2 className="text-4xl font-extrabold text-white mb-3">
+                        <h2 className="text-4xl font-extrabold text-white mb-3">
                             Behind the <span className="text-yellow-500">Milestones</span>
                         </h2>
                         <p className="text-xl text-gray-400 max-w-3xl mx-auto">
@@ -146,37 +144,31 @@ const Success = () => {
                     </div>
 
                     <div className="grid md:grid-cols-3 gap-8 text-center">
-                        
-                        {/* 1st Info Block */}
-                        <div className="p-6 bg-gray-800 rounded-xl border border-purple-500/30 shadow-xl shadow-purple-900/40">
+                        <motion.div className="p-6 bg-gray-800 rounded-xl border border-purple-500/30 shadow-xl shadow-purple-900/40" whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 40 }} viewport={{ once: false, amount: 0.3 }}>
                             <h3 className="text-5xl font-extrabold text-purple-400 mb-2">98%</h3>
                             <p className="text-lg text-gray-300 font-semibold">Job Placement Rate</p>
                             <p className="text-sm text-gray-500 mt-1">Within 6 months of course completion.</p>
-                        </div>
-                        
-                        {/* 2nd Info Block */}
-                        <div className="p-6 bg-gray-800 rounded-xl border border-cyan-500/30 shadow-xl shadow-cyan-900/40">
+                        </motion.div>
+
+                        <motion.div className="p-6 bg-gray-800 rounded-xl border border-cyan-500/30 shadow-xl shadow-cyan-900/40" whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 40 }} viewport={{ once: false, amount: 0.3 }}>
                             <h3 className="text-5xl font-extrabold text-cyan-400 mb-2">50+</h3>
                             <p className="text-lg text-gray-300 font-semibold">Partner Companies</p>
                             <p className="text-sm text-gray-500 mt-1">Direct hiring ties with industry leaders.</p>
-                        </div>
+                        </motion.div>
 
-                        {/* 3rd Info Block */}
-                        <div className="p-6 bg-gray-800 rounded-xl border border-rose-500/30 shadow-xl shadow-rose-900/40">
+                        <motion.div className="p-6 bg-gray-800 rounded-xl border border-rose-500/30 shadow-xl shadow-rose-900/40" whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 40 }} viewport={{ once: false, amount: 0.3 }}>
                             <h3 className="text-5xl font-extrabold text-rose-400 mb-2">18</h3>
                             <p className="text-lg text-gray-300 font-semibold">Countries Served</p>
                             <p className="text-sm text-gray-500 mt-1">Impact across continents and cultures.</p>
-                        </div>
+                        </motion.div>
                     </div>
-                </div>
+                </motion.div>
 
-                {/* --- Final CTA (Call to Action) --- */}
-                <div className="text-center pt-16 mt-16 border-t border-gray-700">
+                <motion.div className="text-center pt-16 mt-16 border-t border-gray-700" initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0, transition: { duration: 1.2 } }} viewport={{ once: false, amount: 0.3 }}>
                     <button className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-10 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
                         Start Your Success Story Today!
                     </button>
-                </div>
-
+                </motion.div>
             </div>
         </div>
     );

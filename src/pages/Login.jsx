@@ -49,7 +49,7 @@ const Login = () => {
 
   return (
     <div className="container text-white mx-auto px-4 py-8">
-      <h2 className="text-4xl text-blue-500 font-semibold mb-4 text-center">Login</h2>
+      <h2 className="text-4xl  font-semibold mb-4 text-center"><span className="text-indigo-400">Login</span> now</h2>
       <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-3 border-2 border-blue-500 rounded-2xl p-6">
         
         {err && <div className="bg-red-500 text-white p-3 mb-3 rounded-md">{err}</div>}

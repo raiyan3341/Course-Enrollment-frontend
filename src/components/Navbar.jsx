@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
+
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const { backendUser, logout } = useAuth();
@@ -34,10 +35,10 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="bg-blue-100 shadow-2xl shadow-purple-400 sticky top-0 z-50">
+    <nav className="bg-white shadow-2xl shadow-purple-400 sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
       
-        <Link to="/" className="font-bold text-xl mr-6 text-indigo-800">LOGO</Link>
+        <Link to="/" className="font-bold text-xl mr-6 text-indigo-800">Programming Shk</Link>
 
       
         <div className="hidden md:flex space-x-4 items-center text-gray-700">
@@ -67,7 +68,7 @@ const Navbar = () => {
                 <span className="hidden md:block font-medium text-gray-800">{backendUser.name}</span>
               </div>
 
-              {/* Logout */}
+             
               <button
                 onClick={logout}
                 className="px-4 py-1 bg-red-500 text-white rounded hover:bg-red-600 transition"

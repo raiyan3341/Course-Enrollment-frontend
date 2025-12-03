@@ -47,7 +47,7 @@ const Contact = () => {
             </div>
 
             <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-                <div className="bg-gray-800 p-8 rounded-2xl shadow-2xl border-t-4 border-indigo-500 hover:shadow-indigo-500/50 transition duration-500 transform hover:scale-105">
+                <div className="bg-gray-800 p-8 rounded-2xl shadow-2xl border-t-4 border-indigo-500 hover:shadow-indigo-500/50 transition duration-500 transform hover:scale-120">
                     <div className="text-4xl text-indigo-400 mb-4">📧</div>
                     <h3 className="text-2xl font-bold text-white mb-2">Email Support</h3>
                     <p className="text-lg text-gray-300">For general inquiries and support</p>
@@ -56,7 +56,7 @@ const Contact = () => {
                     </p>
                 </div>
 
-                <div className="bg-gray-800 p-8 rounded-2xl shadow-2xl border-t-4 border-green-500 hover:shadow-green-500/50 transition duration-500 transform hover:scale-105">
+                <div className="bg-gray-800 p-8 rounded-2xl shadow-2xl border-t-4 border-green-500 hover:shadow-green-500/50 transition duration-500 transform hover:scale-120">
                     <div className="text-4xl text-green-400 mb-4">📞</div>
                     <h3 className="text-2xl font-bold text-white mb-2">Call Us</h3>
                     <p className="text-lg text-gray-300">For urgent questions</p>
@@ -65,7 +65,7 @@ const Contact = () => {
                     </p>
                 </div>
 
-                <div className="bg-gray-800 p-8 rounded-2xl shadow-2xl border-t-4 border-yellow-500 hover:shadow-yellow-500/50 transition duration-500 transform hover:scale-105">
+                <div className="bg-gray-800 p-8 rounded-2xl shadow-2xl border-t-4 border-yellow-500 hover:shadow-yellow-500/50 transition duration-500 transform hover:scale-120">
                     <div className="text-4xl text-yellow-400 mb-4">📍</div>
                     <h3 className="text-2xl font-bold text-white mb-2">Office Location</h3>
                     <p className="text-lg text-gray-300">Our physical address</p>
@@ -77,7 +77,7 @@ const Contact = () => {
             
          
             <div className="mt-8 max-w-2xl mx-auto bg-gray-900 p-8 rounded-xl shadow-inner shadow-gray-700">
-                <h3 className="text-2xl font-bold text-white mb-4 border-b border-gray-700 pb-2">Send Us a Message</h3>
+                <h3 className="text-2xl font-bold text-green-400 mb-4 border-b border-gray-700 pb-2">Send Us a Message</h3>
                 <p className="text-gray-400 mb-4">Fill out your details below for a quick response.</p>
                 
               
