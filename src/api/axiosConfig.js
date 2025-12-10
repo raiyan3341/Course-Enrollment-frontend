@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://course-enrollment-backend.vercel.app",
+  baseURL: "https://course-enrollment-backend.vercel.app/api",
 });
 
 api.interceptors.request.use((config) => {
