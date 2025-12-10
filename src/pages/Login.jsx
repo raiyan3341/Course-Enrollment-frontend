@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, useLocation, Link } from "react-router-dom"; 
 import { useAuth } from "../context/AuthContext";
 import { sendPasswordResetEmail } from "firebase/auth"; 
-import { auth } from "../components/firebase/Firebase.config"; 
+import { auth } from "../components/firebase/Firebase.config.js"; 
 
 const Login = () => {
   const { login } = useAuth();
